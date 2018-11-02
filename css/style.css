@@ -66,28 +66,28 @@ section p {
   border-radius: 4px;
 }
 
-.container .image-full {
+.image-full {
   width: 100%;
 	padding-left: 12px;
 }
 
-.container .image-large {
+.image-large {
   width: 66%;
   padding: 0 12px 0 12px;
 
 }
 
-.container .image-small {
+.image-small {
   width: 33%;
   padding: 0 12px 0 12px;
 }
 
-.container .image-medium {
+.image-medium {
   width: 50%;
   padding: 0 12px 0 12px;
 }
 
-.container .image-tall {
+.image-tall {
   width: 33%;
   height: 40vh;
   padding: 0 12px 0 12px;
