@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skye Selbiger Case Study</title>
+    <link rel="stylesheet" href="css/_base.css">
+    <link rel="stylesheet" href="css/_fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+  <nav>
+  	<a href="index.html">Hello</a>
+  	<a href="intro.html">Intro</a>
+    <a href="casestudy.html" class="active">Case Study</a>
+    <a href="note.html">Thank you</a>
+  </nav>
+  <p class="header-text">
+   Cloudability Interview
+  </p>
+</header>
+
+<section>
+  <h2>
+    Case Study
+  </h2>
+  <h3>
+    Cozy: Payments Ledger
+  </h3>
+  <p>
+    Designing and interating on Cozy's primary payments view to reduce confusion and support cost.
+    <p>
+      <div class="container">
+        <div class="image-full">
+          <img src="images/ledger-final.png">
+          <p class="caption">
+            Renter Ledger 💻
+          </p>
+        </div>
+</section>
+
+<section>
+  <h3>
+    Problem
+  </h3>
+  <p>
+    A majority of renters coming to Cozy have had no previous experience paying rent online, knowledge of a balance, or a ledger. So when presented with a rental ledger for the first time, many are confused by what they are seeing. This leads to an excessive
+    amount of time spent trying to figure out how to schedule a payment, increased user error, and also creates a consistent and expensive burden on our support team.
+  </p>
+  <p>
+    I worked with a product manager and our support team to get a better understanding of how much our rental ledger was costing our them. We looked at support tickets that were being categorized and tagged as Payments: Ledger in Help Scout
+    (our support platform of choice), which showed <span class="bold">nearly 20% of all support tickets submitted by renters every month were related to our payments ledger.</span>
+  </p>
+</section>
+
+<section>
+  <h3>
+    Constraints & Scope
+  </h3>
+  <p>
+    Cozy is a two-sided product serving both landlords and renters. Because of this, our product is built on many shared views, including our payments ledger. This allows landlords to feel more comfortable knowing that what they see is also what their renter
+    will see. <span class="bold">Designing from this place eliminates the option to completely change or remove the ledger from the renter view however.</span>
+  </p>
+  <p>
+    There is also a legal constraint that prohibits us from visually tying payment requests to payment responses. <span class="bold">If we were to visually tie a scheduled payment to a specific request made by a landlord it could make us legally accountable for a scenario in
+    which a landlord or renter sued each other.</span> This is because a renter can’t simply say a payment is for something if there is a previous balance, and visually tying them together could do this.
+  </p>
+  <p>
+    The scope of the project was to stick to designing and iterating the primary ledger view for both renters and landlords.
+</section>
+
+<section>
+  <h3>
+    Key Question
+  </h3>
+  <p>
+    How might we help our renters become less confused with their rental payments ledger, and reduce our support cost?
+  </p>
+</section>
+
+<section>
+  <h3>
+    Success metric
+  </h3>
+  <p>
+    We knew our solution would be successful if we saw reduction in tickets submitted to the support team related to the payments ledger from renters and landlords.
+  </p>
+</section>
+
+<section>
+  <h3>
+    Kick-off
+  </h3>
+  <p>
+    Our process started with an initial session involving Support, Design, Product and Engineering team members. Together we all looked at the most common tickets related to the payments ledger renters were writing in about. This helped us all get a better
+    understanding of the issues renters were having with the ledger. This is where also made the decision to focus on the primary ledger view.
+  </p>
+</section>
+
+<section>
+  <h3>
+    Initial research: audit & observations
+  </h3>
+  <p>
+    In order to figure out what work would be the most impactful, I audited our existing ledger from the perspective a renter new to paying rent online and observed full story sessions of renters that had skipped or bypassed
+    the payment setup flow.
+  </p>
+  <p>
+    Running an audit helped me understand why our existing solution wasn’t necessarily working anymore. It also helped me to come up with questions to ask our renters about, like what they thought of the nomenclature we used, the importance of your payments vs roommates, and the relationship between a charge and a payment.
+  </p>
+  <div class="container">
+    <div class="image-full">
+      <img src="images/ten-lease-d.jpg">
+      <p class="caption">
+        Annotating previous renter ledger view ✍️
+      </p>
+    </div>
+  </div>
+  <p>
+    Observing customers in full story helped me build empathy with our renters. I also started to think that renters could be less confused and overwhelmed by the ledger if we provided a way for them to focus solely on their payments vs roommates, used new
+    nomenclature to describe what they were seeing, and if we could help them understand the differences between payments and charges through visually separating them in the ledger or creating a new view separate from the ledger.
+  </p>
+</section>
+
+<section>
+  <h3>
+    Early design sketches
+  </h3>
+  <p>
+    In the beginning stages of my design process it's important for me to take some time to sketch out the initial ideas swirling around in my head. Here it helped me to figure out multiple directions we could go.
+  </p>
+  <div class="container">
+    <div class="image-medium">
+      <img src="images/img_1200.jpg">
+      <p class="caption">
+        Initial thumbnail sketches (1/2) ✍️
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/img_1201.jpg">
+      <p class="caption">
+        Initial thumbnail sketches (2/2) ✍️
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image-medium">
+      <img src="images/img_1202.jpg">
+      <p class="caption">
+        Exploring alternate nomenclature (1/2) ✍️
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/img_1203.jpg">
+      <p class="caption">
+        Exploring alternate nomenclature (2/2) ✍️
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>
+    Hi-fidelty design exploration
+  </h3>
+  <p>
+    Once I feel like I have enough thumbnails and initial sketches to work from, my next step is to start to flesh out possible directions in more detail. In this case I started to see what would be possible with different structures for organizing the ledger content and how renters/landlords would navigate it.
+  </p>
+  <p>
+    While exploring different possible directions and experiences, I regularly checked in with my project team to make sure there was transparency in the work, everyone could contribute, and I didn't go off the rails.
+  </p>
+
+  <div class="container">
+     <div class="image-medium">
+      <img src="images/1.jpg">
+      <p class="caption">
+        Today & next 30 days (1/6) 👀
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/2.jpg">
+      <p class="caption">
+        Due sheet & scheduled & history (2/6) 👀
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/3.jpg">
+      <p class="caption">
+        Full sheet (3/6) 👀
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/4.jpg">
+      <p class="caption">
+        Split rent & bills (4/6) 👀
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/5.jpg">
+      <p class="caption">
+        Timeline (5/6) 👀
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/6.jpg">
+      <p class="caption">
+        Timeline & lease details (6/6) 👀
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <h3>
+    User testing with renters
+  </h3>
+  <p>
+    Through exploring different directions I had a couple of key IA and design questions that I felt needed to be answered before we could move forward with a solution. In this case, I opted for testing with renters because they would affected the most by
+    the decisions we were considering making.
+  </p>
+
+  <p>
+    I worked with our customer success team to setup 5 user testing sessions with renters. The renters we tested with had roommates, and had made one-time payments for things like utilities.
+  </p>
+
+  <p>
+    The prototype I had created using InVision focused on trying to understand if renters would be less confused by the ledger if we were to split up their payments from payment requests, had functionality to show only their payments vs their roommates, and changed the nomenclature. Some minor changes we also made were using icons as labels in addition to the colors, as well as grouping bills together by their due date.
+  </p>
+  <div class="container">
+    <div class="image-tall">
+      <img src="images/overview.jpg">
+    </div>
+    <div class="image-tall">
+      <img src="images/past-activity.jpg">
+    </div>
+    <div class="image-tall">
+      <img src="images/all-payments.jpg">
+    </div>
+  </div>
+  <p>
+    The general takeaways from the user testing sessions were that renters found it more confusing to segement bills and payments.What did perform well was using "Due today" instead of "Current Balance Due", and "Bill" instead of "Charge".
+  </p>
+</section>
+
+<section>
+  <h3>
+    Solution
+  </h3>
+  <p>
+    Ultimately, we decided to take what we learned from the user testing sessions and make small, but meaningful changes to the existing ledger. At this stage I worked 1:1 with an engineer to translate the designs into user stories that could be submitted as GitHub Issues. As stories were completed I would help QA the implementation to make sure they were aligned with the designs.
+  </p>
+   <div class="container">
+     <div class="image-medium">
+      <img src="images/new-user.jpg">
+      <p class="caption">
+        If a new renter signed up and skipped the payment setup
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/unverfied-bank.jpg">
+      <p class="caption">
+        If a renter had an unverified bank account
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/payments-scheduled-and-in-progress.jpg">
+      <p class="caption">
+       If a renter had payments scheduled and in-progress
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/full-history.jpg">
+      <p class="caption">
+        If a renter had a transaction history with roommates
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/credit-offline-payment.jpg">
+      <p class="caption">
+        If a renter had received a credit and a landlord added an offline payment
+      </p>
+    </div>
+    <div class="image-medium">
+      <img src="images/failed.jpg">
+      <p class="caption">
+        If a renter had a failed payment
+      </p>
+    </div>
+     <div class="image-medium">
+      <img src="images/landlord.jpg">
+      <p class="caption">
+        Landlord view updated to match updates
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <h3>
+    Results
+  </h3>
+  <p>
+After we had implemented changes to our payments ledger it took about a month for us to start seeing measurable changes to our support cost. <span class="bold">All in all, we saw an overall decrease in ledger tickets by 14% month-over-month. We saw an 12% decrease for landlords, and 19% decrease for renters respectively.</span> This was the first time in Cozy's history that ledger tickets decreased month-over-month!
+  </p>
+ <p>
+   Not everything was positive though. After we implemented this, we saw an increase in duplicate payment errors. So while the language may have tested well for "Due Today" in a testing scenario, in use it had a negative effect on our renters experience.
+  </p>
+</section>
+
+  <a href="note.html" class="btn">
+  <span>Thank you →</span>
+  </a>
+
+<div class="progress-bar">
+  <div class="bar">
+  </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/scroll.js"></script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+body {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+  padding: 40px 40px 120px 40px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.header-text {
+  padding-left: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 16px;
+  color: #ddd;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.active {
+  color: #000;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+section p {
+  width: 75%;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: -12px;
+}
+
+.container img {
+  border-radius: 4px;
+}
+
+.container .image-full {
+  width: 100%;
+	padding-left: 12px;
+}
+
+.container .image-large {
+  width: 66%;
+  padding: 0 12px 0 12px;
+
+}
+
+.container .image-small {
+  width: 33%;
+  padding: 0 12px 0 12px;
+}
+
+.container .image-medium {
+  width: 50%;
+  padding: 0 12px 0 12px;
+}
+
+.container .image-tall {
+  width: 33%;
+  height: 40vh;
+  padding: 0 12px 0 12px;
+  overflow: hidden;
+}
+
+.caption {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #999;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  height: 40px;
+  width: auto;
+  padding: 16px;
+  background-color: #1845f5;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.btn:hover {
+ 	background-color: #0f2c9c;
+
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+
+h2 {
+  font-size: 30px;
+  line-height: 1.25;
+  font-weight: 700;
+  padding-bottom: 16px;
+
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 8px;
+  background: #1845f5;
+}
+
+@media (max-width: 720px) {
+ section p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    margin: auto;
+  }
+  
+  .container .image-full,
+  .container .image-large,
+  .container .image-medium,
+  .container .image-small {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+  }
+}
+
