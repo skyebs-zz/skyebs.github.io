@@ -13,10 +13,10 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 24px;
   border-bottom: 1px solid #f2f2f2;
   margin-bottom: 40px;
   font-size: 16px;
+  align-items: center;
 }
 
 .header-text {
@@ -166,7 +166,7 @@ h3 {
   .container {
     margin: auto;
   }
-  
+
   .container .image-full,
   .container .image-large,
   .container .image-medium,
@@ -183,4 +183,3 @@ h3 {
     font-size: 16px;
   }
 }
-
